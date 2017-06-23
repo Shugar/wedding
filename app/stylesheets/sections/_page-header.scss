@@ -1,0 +1,30 @@
+.page-header {
+  position: relative;
+
+  display: flex;
+  align-items: center;
+  padding-left: 12%;
+  height: 100vh;
+
+  background: url('../images/header-bg.png') no-repeat center;
+  background-size: cover;
+}
+
+.page-header__logo {
+  width: 415px;
+  height: 273px;
+  opacity: 1;
+  background: url('../images/logo.png') no-repeat center;
+}
+
+.page-header__tick {
+  position: absolute;
+  bottom: 42px;
+  left: 50%;
+  transform: translateX(-50%);
+
+  width: 16px;
+  height: 9px;
+
+  background: url('../images/tick.svg') no-repeat center;
+}
