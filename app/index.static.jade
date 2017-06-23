@@ -6,6 +6,153 @@ head
   meta(name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no")
   link(rel="stylesheet" href="stylesheets/app.css")
 body
+  header.page-header
+    .page-header__logo
+    .page-header__tick
+  main.page-main
+    .history
+      .history__title
+        | История любви
+      .history__desc
+        | Друзья, верите ли вы в судьбу? Всех этот вопрос, как правило ставит в тупик. Но их историю без преувеличения можно назвать удивительной. Аня и Лёша. На тот момент их объединяли общие друзья и одна случайная встреча. Это сложно было назвать знакомством. Скорее так: увиделись и робко, но взаимно, улыбнулись друг другу. Семь месяцев спустя они опять встретились, но при других обстоятельствах. И эта встреча, 19 мая 2015 года, ознаменовала момент начала их истории, которая продолжается по сей день.  6 Августа 2016 года, в провинции Комо, Леша сделал Ане предложение. И теперь они приглашают Вас, дорогие друзья, 25 мая 2017 года в отель Олд Хаус, где Аня и Леша вместе с Вами начнут писать новую главу их истории.
+
+    .place
+      .place__foto
+      .place__desc
+        .place__desc-title
+          | Загородный клуб «Солнечный»
+        .place__desc-time
+          | 25 августа 2017
+        .place__desc-address
+          | Восточное ш. 17Б, г. Батайск, Ростовская область
+    .map
+    form.form(action="#" method="post")
+      .form__title
+        | Анкета гостя
+      .form__desc
+        | Заполните, пожалуйста, анкету гостя, чтобы мы смогли более точно узнать количество гостей, а также ваши предпочтения в напитках.
+      .form__container-input
+        input(type="text" name="name" id="name" placeholder="Имя" required)
+        input(type="text" name="surname" id="surname" placeholder="Фамилия" required)
+        input(type="tel" name="tel" id="tel" placeholder="Телефон")
+
+      .form__drinks-title
+        | Укажите, пожалуйста, какие напитки вы преподчитаете:
+      .form__drinks-container
+        .form__wine
+          .form__wine-title
+            | Вино
+          .form__wine-item
+            label
+              input(type="checkbox" id="white-dry" name="white-dry")
+              span
+                | Белое сухое вино
+          .form__wine-item
+            label
+              input(type="checkbox" id="white-semisweet" name="white-semisweet")
+              span
+                | Белое полусладкое вино
+          .form__wine-item
+            label
+              input(type="checkbox" id="red-dry" name="red-dry")
+              span
+                | Красное сухое вино
+          .form__wine-item
+            label
+              input(type="checkbox" id="red-semisweet" name="red-semisweet")
+              span
+                | Красное полусладкое вино
+        .form__strong
+          .form__strong-title
+            | Крепкие напитки
+          .form__strong-item
+            label
+              input(type="checkbox" id="whiskey" name="whiskey")
+              span
+                | Виски
+          .form__strong-item
+            label
+              input(type="checkbox" id="cognac" name="cognac")
+              span
+                | Коньяк
+          .form__strong-item
+            label
+              input(type="checkbox" id="vodka" name="vodka")
+              span
+                | Водка
+          .form__strong-item
+            label
+              input(type="checkbox" id="rum" name="rum")
+              span
+                | Ром
+      a.btn.form__btn(href="#")
+        | ОТПРАВИТЬ
+    .grass-1
+
+    .dress-code
+      .dress-code__title
+        | Дресс-код
+      .dress-code__title-desc
+        | Нам будет очень приятно, если вы поддержите цветовую палитру нашего праздника в ваших нарядах.
+      .container.dress-code__container
+        .color-1
+        .color-2
+        .color-3
+        .color-4
+        .color-5
+        .color-6
+        .color-7
+        .color-8
+        .color-9
+        .color-10
+        .color-11
+        .color-12
+    .example-woman
+      .example-woman__title
+        | Пример женских нарядов
+      .example-woman__fotos
+        .example-woman__foto
+        .example-woman__foto
+        .example-woman__foto
+        .example-woman__foto
+    .example-man
+      .example-man__title
+        | Пример мужских нарядов
+      .example-man__fotos
+        .example-man__foto
+        .example-man__foto
+        .example-man__foto
+        .example-man__foto
+    .gift
+      .gift__title
+        | Идеи подарков
+      .gift__desc
+        | В качестве подарка, будем благодарны за любой, даже символический, вклад в бюджет молодой семьи. Если вы хотите сделать памятный подарок, пожалуйста, укажите это на специальном стикере, который вы найдете на банкете.
+    .grass-2
+    .good-bay
+      .good-bay__title
+        | До встречи на свадьбе!
+      .good-bay__desc
+        | Пожалуйста, не забудьте заполнить анкету гостя, для нас это очень важно.
+      a.btn.good-bay__btn(href="#")
+        | ЗАПОЛНИТЬ
+    .grass-3
+    .hashtag
+      .hashtag__title
+        | Хэштег свадьбы: #borisandelena
+      .hashtag__desc
+        | Все фотографии, сделанные вами на свадьбе с #vintagestoryinprovince, автоматически будут попадать сюда. Следите за обновлениями!
+    .all-fotos
+  footer.page-footer
+    .page-footer__coordinator
+      | Если у вас возникнут вопросы, вы можете обратиться к нашему
+      br.page-footer__coordinator-br
+      |  координатору Анастасии:  +7 (928) 226-56-45
+    .page-footer__email
+      | Или напишите на нашу почту:
+      =" "
+      a(href="mailto:.....@borisandelena.love")
+        | .....@borisandelena.love
   script(src="javascripts/vendor.js")
   script(src="javascripts/app.js")
 
