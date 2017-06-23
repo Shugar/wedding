@@ -1,4 +1,5 @@
 .page-footer {
+  padding: 0 18px;
   padding-bottom: 75px;
 }
 
@@ -20,4 +21,20 @@
 
 .page-footer__email a {
   color: #000;
+}
+
+.page-footer__coordinator-br-tel {
+  display: none;
+}
+
+@media (max-width: 525px) {
+  .page-footer__coordinator-br {
+    display: none;
+  }
+}
+
+@media (max-width: 449px) {
+  .page-footer__coordinator-br-tel {
+    display: block;
+  }
 }

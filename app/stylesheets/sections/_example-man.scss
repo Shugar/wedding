@@ -55,3 +55,26 @@
   background: url('../images/man-4.jpg') no-repeat center;
   background-size: contain;
 }
+
+@media (max-width: 550px) {
+  .example-man {
+    margin-bottom: 70px;
+  }
+
+  .example-man__photos {
+    display: flex;
+    flex-wrap: wrap;
+
+    min-height: 228px;
+  }
+
+  .example-man__photo {
+    flex-shrink: 0;
+
+    margin: 0 auto;
+    min-height: 228px;
+    width: 138px;
+
+    margin-bottom: 20px;
+  }
+}

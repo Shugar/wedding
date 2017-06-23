@@ -5,6 +5,7 @@
 }
 
 .place__photo {
+  flex-shrink: 0;
   width: 50%;
   margin-right: 3.5%;
 
@@ -48,3 +49,37 @@
   font-family: 'OpenSans';
   font-size: 16px;
 }
+
+@media (max-width: 560px) {
+  .place {
+    flex-direction: column;
+  }
+
+  .place__photo {
+    width: 100%;
+    min-height: 60vw;
+    margin-right: 0;
+    margin-bottom: 30px;
+  }
+
+  .place__desc-title {
+    text-align: center;
+    &::after {
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  }
+
+  .place__desc {
+    align-items: center;
+
+    margin-bottom: 30px;
+  }
+
+  .place__desc-address {
+    text-align: center;
+  }
+
+}
+
+

@@ -8,7 +8,7 @@
 }
 
 .grass-2 {
-  min-height: 17vw;
+  min-height: 17.3vw;
   margin-bottom: 150px;
 
   background: url('../images/grass-2.jpg') no-repeat center;
@@ -16,9 +16,23 @@
 }
 
 .grass-3 {
-  min-height: 17vw;
+  min-height: 17.3vw;
   margin-bottom: 150px;
 
   background: url('../images/grass-3.jpg') no-repeat center;
   background-size: cover;
+}
+
+@media (max-width: 560px) {
+  .grass-1 {
+    margin-bottom: 70px;
+  }
+
+  .grass-2 {
+    margin-bottom: 100px;
+  }
+
+  .grass-3 {
+    margin-bottom: 100px;
+  }
 }
