@@ -1,0 +1,92 @@
+.form__title {
+  position: relative;
+  margin-bottom: 44px;
+
+  text-align: center;
+  font-family: 'OpenSans';
+  font-size: 32px;
+
+  &::after {
+    content: '';
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    display: block;
+    width: 50px;
+    height: 4px;
+
+    background-color: #bfd1c5;
+  }
+}
+
+.form__desc {
+  max-width: 600px;
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 50px;
+
+  font-family: 'PlayfairDisplay';
+  font-size: 16px;
+  line-height: 1.31;
+  text-align: center;
+}
+
+.form__container-input {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 50px;
+
+  text-align: center;
+}
+
+.form__container-input input {
+  display: block;
+  max-width: 374px;
+  width: 100%;
+  height: 51px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  padding-left: 20px;
+
+  font-family: 'PlayfairDisplay';
+  font-size: 16px;
+  color: #000000;
+
+  border: solid 1px #c7c7c7;
+}
+
+.form__drinks-title {
+  margin-bottom: 50px;
+
+  font-family: 'PlayfairDisplay';
+  font-size: 16px;
+  line-height: 1.31;
+  text-align: center;
+  color: #000000;
+}
+
+.form__drinks-container {
+  display: flex;
+
+  max-width: 600px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.form__wine {
+  max-width: 300px;
+  width: 100%;
+}
+
+.form__wine-title {
+  margin-bottom: 20px;
+
+  font-family: 'OpenSans';
+  font-size: 26px;
+}
+
+.form__wine-item input {
+  font-size: 0;
+}
