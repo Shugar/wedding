@@ -73,11 +73,13 @@
   max-width: 600px;
   width: 100%;
   margin: 0 auto;
+  margin-bottom: 60px;
 }
 
 .form__wine {
   max-width: 300px;
   width: 100%;
+  margin-left: 30px;
 }
 
 .form__wine-title {
@@ -87,6 +89,53 @@
   font-size: 26px;
 }
 
+.form__wine-item {
+  position: relative;
+  margin-bottom: 15px;
+}
+
 .form__wine-item input {
-  font-size: 0;
+  display: none;
+}
+
+.form__item-checkbox {
+  position: absolute;
+  top: -2px;
+
+  display: block;
+  width: 22px;
+  height: 22px;
+  border: solid 1px #979797;
+}
+
+.form__wine-item-text {
+  position: relative;
+  margin-left: 35px;
+}
+
+
+.form__strong {
+  max-width: 300px;
+  width: 100%;
+  margin-left: 90px;
+}
+
+.form__strong-title {
+  margin-bottom: 20px;
+
+  font-family: 'OpenSans';
+  font-size: 26px;
+}
+
+.form__strong-item {
+  position: relative;
+  margin-bottom: 15px;
+}
+
+.form__strong-item-text {
+  margin-left: 35px;
+}
+
+.form__strong-item input {
+  display: none;
 }

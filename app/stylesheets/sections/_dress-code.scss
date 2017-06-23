@@ -1,0 +1,98 @@
+.dress-code__title {
+  position: relative;
+  margin-bottom: 44px;
+
+  text-align: center;
+  font-family: 'OpenSans';
+  font-size: 32px;
+
+  &::after {
+    content: '';
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    display: block;
+    width: 50px;
+    height: 4px;
+
+    background-color: #bfd1c5;
+  }
+}
+
+.dress-code__title-desc {
+  margin-bottom: 100px;
+
+  font-family: 'PlayfairDisplay';
+  font-size: 16px;
+  line-height: 1.31;
+  text-align: center;
+}
+
+.dress-code__container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  margin-bottom: 100px;
+}
+
+.dress-code__color {
+  margin-bottom: 40px;
+  margin-right: 20px;
+  width: 160px;
+  height: 50px;
+}
+
+.dress-code__color-1 {
+  background-color: #f8ecd5;
+}
+
+.dress-code__color-2 {
+  background-color: #ede3d9;
+}
+
+.dress-code__color-3 {
+  background-color: #f2d4c1;
+}
+
+.dress-code__color-4 {
+  background-color: #f9bda9;
+}
+
+.dress-code__color-5 {
+  background-color: #f3dbe5;
+}
+
+.dress-code__color-6 {
+  margin-right: 0;
+
+  background-color: #caa395;
+}
+
+.dress-code__color-7 {
+  background-color: #c0d3c7;
+}
+
+.dress-code__color-8 {
+  background-color: #b1b9ae;
+}
+
+.dress-code__color-9 {
+  background-color: #aca39c;
+}
+
+.dress-code__color-10 {
+  background-color: #7b9fa6;
+}
+
+.dress-code__color-11 {
+  background-color: #353d4a;
+}
+
+.dress-code__color-12 {
+  margin-right: 0;
+
+  background-color: #2e5049;
+}
