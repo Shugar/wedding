@@ -102,6 +102,56 @@
   display: none;
 }
 
+.form__wine-item input:checked + .form__item-checkbox {
+  &::after {
+    content: "";
+    position: absolute;
+    top: 9px;
+    left: 2px;
+    width: 15px;
+    height: 2px;
+    background: #979797;
+    transform: rotate(-45deg);
+  }
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 9px;
+    left: 2px;
+    width: 15px;
+    height: 2px;
+    background: #979797;
+
+    transform: rotate(45deg);
+  }
+}
+
+.form__strong-item input:checked + .form__item-checkbox {
+  &::after {
+    content: "";
+    position: absolute;
+    top: 9px;
+    left: 2px;
+    width: 15px;
+    height: 2px;
+    background: #979797;
+    transform: rotate(-45deg);
+  }
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 9px;
+    left: 2px;
+    width: 15px;
+    height: 2px;
+    background: #979797;
+
+    transform: rotate(45deg);
+  }
+}
+
 .form__item-checkbox {
   position: absolute;
   top: -2px;
@@ -110,6 +160,8 @@
   width: 22px;
   height: 22px;
   border: solid 1px #979797;
+
+
 }
 
 .form__wine-item-text {
