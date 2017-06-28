@@ -166,7 +166,9 @@
 
 .form__wine-item-text {
   position: relative;
-  margin-left: 35px;
+  padding-left: 35px;
+
+  cursor: pointer;
 }
 
 
@@ -187,8 +189,12 @@
   margin-bottom: 15px;
 }
 
+.form__strong-item label {
+  cursor: pointer;
+}
+
 .form__strong-item-text {
-  margin-left: 35px;
+  padding-left: 35px;
 }
 
 .form__strong-item input {
